@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498AF53A1B1BC60F0012DB39 /* ICSWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498AF5391B1BC60F0012DB39 /* ICSWriter.swift */; };
+		498AF53C1B1BCD190012DB39 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498AF53B1B1BCD190012DB39 /* File.swift */; };
 		49C21DF51B1B505B00F18BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C21DF41B1B505B00F18BC1 /* AppDelegate.swift */; };
 		49C21DF71B1B505B00F18BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C21DF61B1B505B00F18BC1 /* ViewController.swift */; };
 		49C21DFA1B1B505B00F18BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C21DF81B1B505B00F18BC1 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		498AF5391B1BC60F0012DB39 /* ICSWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICSWriter.swift; sourceTree = "<group>"; };
+		498AF53B1B1BCD190012DB39 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		49C21DEF1B1B505B00F18BC1 /* ICS Writer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ICS Writer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C21DF31B1B505B00F18BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C21DF41B1B505B00F18BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				49C21DF41B1B505B00F18BC1 /* AppDelegate.swift */,
 				49C21DF61B1B505B00F18BC1 /* ViewController.swift */,
+				498AF53B1B1BCD190012DB39 /* File.swift */,
+				498AF5391B1BC60F0012DB39 /* ICSWriter.swift */,
 				49C21DF81B1B505B00F18BC1 /* Main.storyboard */,
 				49C21DFB1B1B505B00F18BC1 /* Images.xcassets */,
 				49C21DFD1B1B505B00F18BC1 /* LaunchScreen.xib */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498AF53A1B1BC60F0012DB39 /* ICSWriter.swift in Sources */,
+				498AF53C1B1BCD190012DB39 /* File.swift in Sources */,
 				49C21DF71B1B505B00F18BC1 /* ViewController.swift in Sources */,
 				49C21DF51B1B505B00F18BC1 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				49C21E101B1B505B00F18BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49C21E111B1B505B00F18BC1 /* Build configuration list for PBXNativeTarget "ICS WriterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				49C21E131B1B505B00F18BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
